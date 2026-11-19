@@ -1,0 +1,21 @@
+{
+  "name": "projection-lab-desktop",
+  "productName": "空间投影实验室",
+  "version": "1.0.0",
+  "author": "LouisYZ",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "package": "node package.mjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0"
+  },
+  "desktopRuntime": {
+    "electron": "45.3.4"
+  }
+}
